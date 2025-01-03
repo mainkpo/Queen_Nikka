@@ -6,7 +6,7 @@ global.audio = "www.youtube.com";
 global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "maxwellexcel2@gmail.com";
+global.email = "directkpo@gmail.com";
 global.location = "Imo, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://astrofx0011:astro@cluster0.lmwnxdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "true";
@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/hakisolos/Queen_Nikka";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaoLotu42DchJmXKBN3L";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vani1Mn5fM5WnZHzrK0T";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vani1Mn5fM5WnZHzrK0T";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/bh2fpj.jpg";
 global.devs = "2348121373516";
-global.sudo = process.env.SUDO || "2349112171078";
-global.owner = process.env.OWNER_NUMBER || "2349112171078";
+global.sudo = process.env.SUDO || "2349129338499";
+global.owner = process.env.OWNER_NUMBER || "2349129338499";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_NIKKA™`",
-  author: process.env.PACK_AUTHER || "HAKI",
-  packname: process.env.PACK_NAME || "KING",
-  botname: process.env.BOT_NAME || "QUEEN_NIKKA",
-  ownername: process.env.OWNER_NAME || "HAKI",
+  caption: process.env.CAPTION || "KPO-BOT™`",
+  author: process.env.PACK_AUTHER || " _■ ░K░P░O░ ■_",
+  packname: process.env.PACK_NAME || "KPO",
+  botname: process.env.BOT_NAME || "KPO-BOT",
+  ownername: process.env.OWNER_NAME || " _■ ░K░P░O░ ■_",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
